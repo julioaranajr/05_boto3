@@ -28,7 +28,7 @@ subcommand named configure to set up an AWS environment on your laptop, workstat
 To configure the AWS environment, type the following command in your terminal:
 
 ```sh
-    aws configure
+aws configure
  ```
  
 This command will walk you through an environment configuration process and 

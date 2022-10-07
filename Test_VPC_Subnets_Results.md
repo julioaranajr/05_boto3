@@ -5,8 +5,9 @@
 python list_vpc.py 
 ```
 - Output of the vpc from aws-region=eu-central-1
-```sh
+
 [$] <git:(main)> python list_vpc.py
+```jason
 2022-10-07 13:14:48,985: INFO: Found credentials in shared credentials file: ~/.aws/credentials
 2022-10-07 13:14:49,471: INFO: VPC Details: 
 2022-10-07 13:14:49,471: INFO: {
@@ -37,7 +38,7 @@ python list_vpc.py
 # Output of my subnets
 
 - Run the script in the terminal:
-```sh
+```jason
 python list_vpc.py 
 ```
 - Output of the subnets from aws-region=eu-central-1

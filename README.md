@@ -84,6 +84,7 @@ for bucket in response["Buckets"]:
 
 - Write a boto3 script that prints out all VPCs and Subnets
 in your lab account.
+
 - Then for each resource found (VPC and subnets), attach a new 
 AWS tag "Project: Talent-Academy" where tag key is "Project" and 
 tag value is "Talent-Academy"

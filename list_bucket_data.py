@@ -5,7 +5,6 @@ from datetime import date
 # Let's use Amazon S3
 # s3 = boto3.resource('s3')
 
-# Print out bucket names
 # for bucket in s3.buckets.all():
 #     print(bucket.name)
 
@@ -16,6 +15,6 @@ response = client.list_buckets()
 # print(response)
 # print(response["ResponseMetadata"]["RequestId"])
 # print(response["Buckets"][0]["Name"])
-
+# Print out all bucket names and creation date
 for bucket in response["Buckets"]:
     print(date.strftime(bucket["CreationDate"], "%H-%m-%Y %H:%M"), bucket["Name"])

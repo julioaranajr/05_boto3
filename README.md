@@ -9,7 +9,7 @@ pip install boto3
 
 The command above will install the Boto3 library globally in your system. Alternatively, 
 you can configure a Python development environment to isolate your dependencies and manage 
-them separately.
+them separately
 
 ## Install AWS CLI tools 
 To install theAWS CLI tools, you have to run another command in your terminal:

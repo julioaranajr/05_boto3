@@ -46,7 +46,7 @@ def describe_vpcs(tag, tag_values, max_items):
 if __name__ == '__main__':
     # Constants
     TAG = 'Name'
-    TAG_VALUES = ['hands-on-cloud-custom-vpc']
+    TAG_VALUES = ['*']
     MAX_ITEMS = 10
     vpcs = describe_vpcs(TAG, TAG_VALUES, MAX_ITEMS)
     logger.info('VPC Details: ')

@@ -38,8 +38,8 @@ python list_vpc.py
 # Output of my subnets
 
 - Run the script in the terminal:
-```jason
-python list_vpc.py 
+```bash
+python list_subnets.py 
 ```
 - Output of the subnets from aws-region=eu-central-1
 

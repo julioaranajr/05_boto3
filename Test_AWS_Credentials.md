@@ -27,14 +27,14 @@ print(json.dumps(output, indent=4))
 
 # Testing AWS credentials via AWS CLI
 My favorite way of testing AWS credentials is by running the following command:
-```sh
+```bash
 aws sts get-caller-identity | tee
 ```
 This command will produce information about your AWS Account and User IDs
 
 
 ## Getting AWS Account and User IDs - Example output
-```sh
+```yaml
     {
     "UserId": "AKIAYQV4J5VM5FWGJMGB",
     "Account": "0123456789",

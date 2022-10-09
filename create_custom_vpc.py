@@ -42,3 +42,4 @@ if __name__ == '__main__':
     logger.info(f'Creating a custom VPC...')
     custom_vpc = create_custom_vpc(IP_CIDR)
     logger.info(f'Custom VPC is created with VPC ID: {custom_vpc.id}')
+    

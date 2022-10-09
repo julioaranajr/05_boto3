@@ -12,7 +12,6 @@ logging.basicConfig(level=logging.INFO,
 
 vpc_resource = boto3.resource("ec2", region_name=AWS_REGION)
 
-
 def create_custom_vpc(ip_cidr):
     """
     Creates a custom VPC with the specified configuration.

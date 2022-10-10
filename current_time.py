@@ -18,5 +18,3 @@ print(pytz.country_names['DE'])
 tz_Berlin = pytz.timezone('Europe/Berlin')
 datetime_Berlin = datetime.now(tz_Berlin)
 print("Berlin time:", datetime_Berlin.strftime("%H:%M:%S"))
-
-

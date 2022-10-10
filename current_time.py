@@ -13,7 +13,7 @@ tz_London = pytz.timezone('Europe/London')
 datetime_London = datetime.now(tz_London)
 print("London time:", datetime_London.strftime("%H:%M:%S"))
 
-# Current time in Germany for my friend Pascal Edouard
+# Current time in Germany for my friends Pascal Edouard and Deniss Starevics
 print(pytz.country_names['DE'])
 tz_Berlin = pytz.timezone('Europe/Berlin')
 datetime_Berlin = datetime.now(tz_Berlin)

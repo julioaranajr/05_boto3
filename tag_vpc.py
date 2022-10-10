@@ -4,7 +4,7 @@ import boto3
 from botocore.exceptions import ClientError
 import json
 
-session = boto3.Session(profile_name='talen-academy')
+session = boto3.Session(profile_name='talent-academy')
 dev_s3_client = session.client('s3')
 
 
@@ -51,3 +51,4 @@ if __name__ == "__main__":
         instance_ids = get_instances_in_subnet(subnet["SubnetId"])
         if instance_ids:
             tag_instances(instance_ids, "ScheduledLifecycle", "Yes")
+             
